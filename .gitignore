@@ -1,0 +1,23 @@
+# Ignore VSCode settings folder
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary files created by editors
+*.swp
+*.bak
+*.tmp
+
+# Ignore node_modules (if using Node.js in the future)
+node_modules/
+
+# Ignore npm or yarn lock files (if using Node.js in the future)
+package-lock.json
+yarn.lock
