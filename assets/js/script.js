@@ -8,13 +8,13 @@ const countValue = document.querySelector(".count-value");
 
 let taskCount = 0;
 
-const displayCount = ()=>{
+const displayCount = () => {
     countValue.innerText = taskCount;
 };
 
 // Add new task
 
-const displayCount = () => {
+const addTask = () => {
     const taskName=newTaskInput.ariaValueMax.trim(); 
     error.style.display="none";
 // Show error if task input is emtpy
@@ -50,6 +50,36 @@ deleteButtons.forEach((button) => {
         displayCount();
     }
 });
+
+const editButtons = document.querySelectorAll(".edit");
+
+//Add edit functionality
+
+editButtons.forEach((editBtn) => {
+    editBtn.onclick = (e) => {
+        let targetElement = e.target;
+        if(!(e.target.className ==="edit")) {
+            targetElement = e.target.parentElement;
+        }
+         new newTaskInput.value = targetElement.previousElementSibling?.innerText;
+         targetElement.parentNode.remove();
+         taskCount -= 1;
+         displayCount();
+    };
+});
+
+//Add Checkbox functionality
+
+const tasksCheck = document.querySelectorAll(".task-check");
+tasksCheck.forEach((checkBox) => {
+    checkBox.onchange =() => {
+        checkBox.nextElementSibling.classList.toggle("completed");
+
+//Adjust task count based on checkbox state
+
+
+    }
+}
 
 
 
