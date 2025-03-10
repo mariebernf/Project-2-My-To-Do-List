@@ -95,3 +95,17 @@ displayCount();
     newTaskInput.value="";
 
 };
+
+//Add event listener for adding task
+
+addBtn.addEventListener("click",addTask);
+
+//Reset task count 
+
+window.onload = () => {
+    taskCount = 0;
+    displayCount();
+    newTaskInput.value="";
+
+};
+
