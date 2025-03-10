@@ -77,10 +77,21 @@ tasksCheck.forEach((checkBox) => {
 
 //Adjust task count based on checkbox state
 
-
-    }
+if(checkBox.checked) {
+    taskCount -=1; //Decrease task count when checked
+} else {
+ taskCount += 1; //Increase task count when unchecked
 }
 
+displayCount();
 
+    };
+
+
+    });
+
+    taskCount += 1;
+    displayCount();
+    newTaskInput.value="";
 
 };
