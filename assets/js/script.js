@@ -94,7 +94,9 @@ displayCount();
     displayCount();
     newTaskInput.value="";
 
+    alert("Task added successfully!")
 };
+
 
 // Event listener for adding task
 
