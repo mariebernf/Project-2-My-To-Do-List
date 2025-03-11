@@ -1,5 +1,7 @@
 ﻿# Project-2-My-To-Do-List
 
+https://mariebernf.github.io/Project-2-My-To-Do-List/
+
 # Deployment
 ## Deployment steps:
 1. Go to the settings tab in your Github repository.
