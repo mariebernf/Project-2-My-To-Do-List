@@ -1,5 +1,5 @@
-/* Reset default margin and padding across all elements*/
-* {
+/* Reset default margin and padding */
+*, *:before, *:after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 /* Body */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: blueviolet; 
+    background-color: lightblue; 
     min-height: 100vh;
     padding: 0%;
     margin: 0;
@@ -28,7 +28,7 @@ body {
 
 .container {
     padding: 30px 40px;
-    background-color: aqua;
+    background-color: lightgray;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
     border-radius: 0.8em;
     width: 100%;
@@ -43,6 +43,7 @@ body {
     display: flex;
     gap: 10px;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 #wrapper input {
@@ -52,16 +53,16 @@ body {
     color: black;
     font-size: 0.9em;
     border: none;
-    border-bottom: 2px solid wheat;
-    padding: 1em 0.5em;
+    border-bottom: 2px solid white;
+    padding: 0.8em 0.5em;
 }
 
 #wrapper button {
     font-family: 'Courier New', Courier, monospace;
-    background-color: blue;
+    background-color: white;
     color: black;
     border: none;
-    padding: 1em;
+    padding: 0.8em 1em;
     border-radius: 5px;
     cursor: pointer;
     outline: none;  
@@ -73,33 +74,34 @@ body {
     display: none;
     background-color: red;
     color: black;
-    padding: 10px;
-    border-radius: 0.5em;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
 
 /* Task List */
 #tasks {
     margin-top: 1em;
     width: 100%;
-    padding: 1em 0.5em;
+    padding: 0.5em 0;
 }
 
 .task {
-    background-color: blue;
-    padding: 0.8em 1em;
+    background-color: white;
+    padding: 1em;
     display: grid;
     grid-template-columns: 1fr 8fr 2fr 2fr;
     gap: 1em;
     border-radius: 0.5em;
     box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.5);
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .task input [type="checkbox"] {
     height: 20px;
     width: 20px;
     border-radius: 50%;
-    border: 2px solid #e1e1e1;
+    border: 2px solid white;
 }
 
 .task input[type="checkbox"]:checked {
@@ -113,7 +115,7 @@ body {
 
 .task button {
     color: #ffffff;
-    padding: 1em 0;
+    padding: 0.6em 1.2em;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -122,7 +124,7 @@ body {
 /* Edit button */
 
 .edit {
-    background-color: orange;
+    background-color: lightskyblue;
 }
 
 /* delete button */
@@ -135,6 +137,7 @@ body {
 
 #pending-tasks span {
     color: red;
+    margin-top: 10px;
 }
 
 /* Completed shown with a line through */
@@ -152,8 +155,8 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 20px;
     z-index: 1000;
     display: flex;
@@ -172,8 +175,8 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     padding: 10px 20px;
 }

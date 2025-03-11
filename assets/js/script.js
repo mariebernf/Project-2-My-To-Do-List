@@ -15,7 +15,7 @@ const displayCount = () => {
 // Add new task
 
 const addTask = () => {
-    const taskName=newTaskInput.ariaValueMax.trim(); 
+    const taskName=newTaskInput.value.trim(); 
     error.style.display="none";
 // Show error if task input is emtpy
 
@@ -31,21 +31,21 @@ const task = `
 <div class="task">
 <input type="checkbox" class="task-check">
 <span class="taskname">${taskName}</span>
-<button class="edit"><i class="fas fa-edit"></i></button>
-<button class="delete"><i class="far fa-trash-alt"></i></button>
+<button class="edit">Edit</i></button>
+<button class="delete">Delete</i></button>
 </div>
 `;
 
-//Add task to the task container
+// Add task to the task container
 
 tasksContainer.insertAdjacentHTML("beforeend",task);
 
-//Add delete functionality
+// Delete functionality
 
 const deleteButtons=document.querySelectorAll(".delete");
 deleteButtons.forEach((button) => {
     button.onclick = () => {
-        button.parentNode.removeChild();
+        button.parentNode.remove();
         taskCount -=1;
         displayCount();
     }
@@ -53,7 +53,7 @@ deleteButtons.forEach((button) => {
 
 const editButtons = document.querySelectorAll(".edit");
 
-//Add edit functionality
+// Edit functionality
 
 editButtons.forEach((editBtn) => {
     editBtn.onclick = (e) => {
@@ -61,26 +61,26 @@ editButtons.forEach((editBtn) => {
         if(!(e.target.className ==="edit")) {
             targetElement = e.target.parentElement;
         }
-         new newTaskInput.value = targetElement.previousElementSibling?.innerText;
+         newTaskInput.value = targetElement.previousElementSibling?.innerText;
          targetElement.parentNode.remove();
          taskCount -= 1;
          displayCount();
     };
 });
 
-//Add Checkbox functionality
+// Checkbox functionality
 
 const tasksCheck = document.querySelectorAll(".task-check");
 tasksCheck.forEach((checkBox) => {
     checkBox.onchange =() => {
         checkBox.nextElementSibling.classList.toggle("completed");
 
-//Adjust task count based on checkbox state
+// Adjust task count based on checkbox state
 
 if(checkBox.checked) {
-    taskCount -=1; //Decrease task count when checked
+    taskCount -=1; // Decrease task count when checked
 } else {
- taskCount += 1; //Increase task count when unchecked
+ taskCount += 1; // Increase task count when unchecked
 }
 
 displayCount();
@@ -96,11 +96,11 @@ displayCount();
 
 };
 
-//Add event listener for adding task
+// Event listener for adding task
 
 addBtn.addEventListener("click",addTask);
 
-//Reset task count 
+// Reset task count 
 
 window.onload = () => {
     taskCount = 0;
