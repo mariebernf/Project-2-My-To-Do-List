@@ -94,6 +94,8 @@ displayCount();
     displayCount();
     newTaskInput.value="";
 
+    // Pop up message
+
     alert("Task added successfully!")
 };
 

@@ -8,7 +8,7 @@
 /* Body */
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: lightblue; 
+    background-color: lightsalmon; 
     min-height: 100vh;
     padding: 0%;
     margin: 0;
@@ -126,7 +126,7 @@ body {
 /* Edit button */
 
 .edit {
-    background-color: lightskyblue;
+    background-color: rgb(99, 167, 210);
 }
 
 /* delete button */
