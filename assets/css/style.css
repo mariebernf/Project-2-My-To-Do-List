@@ -167,6 +167,7 @@ background-color: rgb(99, 167, 210)
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Tangerine', cursive;
 }
 
 .fixed-header .logo {
@@ -184,4 +185,5 @@ background-color: rgb(99, 167, 210)
     color: black;
     text-align: center;
     padding: 10px 20px;
+    font-family: 'Tangerine', cursive;
 }
