@@ -189,3 +189,60 @@ background-color: rgb(99, 167, 210)
 }
 
 /* Media Queries */
+
+/* Tablet (601px to 768px */
+@media screen and (min-width: 601px) and (max-width: 768px){
+    .container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .task {
+        grid-template-columns: 1fr 2fr 1fr 1fr;
+    }
+
+    #wrapper input {
+        padding: 0.8em;
+    }
+
+    #wrapper button {
+        width: 100%;
+        padding: 0.8em;
+    }
+}
+
+/* Desktop ()769px to 1199px */
+@media screen and (min-width: 769px) and (max-width: 1199px){
+    .container {
+        width: 80%;
+        max-width: 800px;
+    }
+
+    .task {
+        grid-template-columns: 1fr 6fr 2fr 2fr;
+    }
+
+    .fixed-header .logo {
+        font-size: 30px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Large Desktop (1200px and above) */
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 70%;
+        max-width: 900px;
+    }
+
+    .fixed-header .logo {
+        font-size: 36px;
+    }
+
+    body {
+        font-size: 18px;
+    }
+}
