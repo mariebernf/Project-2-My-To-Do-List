@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
 /* Body */
 body {
     font-family: 'Times New Roman', Times, serif;
@@ -126,7 +129,7 @@ body {
 /* Edit button */
 
 .edit {
-    background-color: rgb(99, 167, 210);
+background-color: rgb(99, 167, 210) 
 }
 
 /* delete button */
