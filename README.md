@@ -2,14 +2,13 @@
 
 https://mariebernf.github.io/Project-2-My-To-Do-List/
 
-#User stories
+# User stories
 
-#Design
+# Design
 
-#Features
+# Features
 
-#Technologies used
-
+# Technologies used
 # Deployment
 ## Deployment steps:
 1. Go to the settings tab in your Github repository.
@@ -18,6 +17,6 @@ https://mariebernf.github.io/Project-2-My-To-Do-List/
 4. This can take a few minutes.
 4. Gitpages will now show Active deployments.
 
-#Testing
+# Testing
 
-#Credits
+# Credits
