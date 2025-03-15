@@ -10,7 +10,7 @@
 
 /* Body */
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #d6e9f1; 
     min-height: 100vh;
     padding: 0%;
@@ -52,7 +52,7 @@ body {
 
 #wrapper input {
     flex-grow: 1;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: transparent;
     color: black;
     font-size: 0.9em;
@@ -63,7 +63,7 @@ body {
 }
 
 #wrapper button {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: black;
     border: none;
