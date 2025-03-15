@@ -46,6 +46,13 @@
 # Features
 
 # Technologies used
+
+**1. HTML:** Used to structure the content of the website.
+
+**2. CSS:** Used for styling the website.
+
+**3. JavaScript:** Used to add interactivity and functionality to the website.
+   
 # Deployment
 ## Deployment steps:
 1. Go to the settings tab in your Github repository. 
