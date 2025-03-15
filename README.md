@@ -105,6 +105,22 @@
 
 **Manual testing:**
 
+**Responsiveness:** The website is responsive on different devices and browsers: Google Chrome, Safari and Microsoft Edge.
+
+**Buttons:** 
+* Add button: Verified that the add button adds a new task when clicked.
+* Delete button: Verified that the delete button deletes content when clicked.
+* Edit button: Verified that the edit button works.
+
+**Error message for an empty input:** Verified that the error message is displayed when the input field is left empty.
+
+**Task status and checkbox:** Verified that when the task is checked off using the checkbox, it will display a line through the text.
+
+**Pop-up Alert:** Verified the "Task added successfully!" pop-up message appears when a task is successfully added. 
+
+***
+
+
 **HTML Tested by W3C validator:**
 
 ![Screenshot](assets/images/Screenshot%202025-03-15%20025557.png)
