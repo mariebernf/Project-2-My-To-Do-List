@@ -73,14 +73,13 @@
 
 ![Screenshot](assets/images/Screenshot%202025-03-15%20032132.png)
 
-
-**CSS Tested by W3C (Jigsaw) validator:**
-
 **JS**
 
 **Lighthouse**
 
-# Bugs
+![Screenshot](assets/images/Lighthouse.png)
+
+# Bugs and Fixes
 
 **Edit and delete buttons were not responsive.**
 
