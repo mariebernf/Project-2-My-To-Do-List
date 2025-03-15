@@ -28,7 +28,7 @@
 **Buttons:** 
 * Add button: Has a white background with black text, this makes it look clean and easy to use.
  
-* Delete button: Is red, symbolizws urgency making it easy for users to identify. It draws attentions to the user.
+* Delete button: Is red, symbolises urgency making it easy for users to identify. It draws attentions to the user.
   
 * Edit button: Is light blue which aligns with the sites colour scheme.
 
@@ -46,6 +46,44 @@
  * The combination of Arial for the main content and Tangerine for the header and footer works well becasue it balances readablity with a refined look.
 
 # Features
+
+**The To-Do List application provides users with a simple and interactive way to manage their tasks.**
+
+**The key functions are:**
+
+**1. Add new Task**
+
+* Users can type a task into the input field and click the "Add task" button to add a new task to the list.
+* If the input field is empty, an error message is shown that the user needs to enter a task.
+* After adding a task, the task count is updated and the input field is cleared.
+
+**2. Edit Task**
+* Each task has an "Edit" button next to it, allowing users to modify the task.
+* When edited the task is removed from the list, and the updated task is added.
+
+**3. Delete Task**
+* Each task has a "Delete" button next to it, that removes the task from the list.
+
+**4. Task completed checkbox**
+* Each task has a checkbox that users can check to mark the task as completed.
+
+**5. Pop-up message**
+* After adding a task, a success message "Task added successfully!" is displayed in a pop-up to inform the users that their task has been added.
+
+**Future improvments:**
+
+**1. Categorize tasks:**
+* Allow users to categorize tasks e.g Work, study, personal, shopping.
+
+**2. Display date of task:**
+* Show the date the task was created.
+* Let users have the option of setting a due date for the task to be completed.
+
+**3. Prioritize tasks:**
+* Allow users to mark their tasks as high, medium or low priority.
+
+**4. Save the task list:**
+* Enable users to save their task list.
 
 # Technologies used
 
@@ -66,6 +104,22 @@
 # Testing
 
 **Manual testing:**
+
+**Responsiveness:** The website is responsive on different devices and browsers: Google Chrome, Safari and Microsoft Edge.
+
+**Buttons:** 
+* Add button: Verified that the add button adds a new task when clicked.
+* Delete button: Verified that the delete button deletes content when clicked.
+* Edit button: Verified that the edit button works.
+
+**Error message for an empty input:** Verified that the error message is displayed when the input field is left empty.
+
+**Task status and checkbox:** Verified that when the task is checked off using the checkbox, it will display a line through the text.
+
+**Pop-up Alert:** Verified the "Task added successfully!" pop-up message appears when a task is successfully added. 
+
+***
+
 
 **HTML Tested by W3C validator:**
 
@@ -120,3 +174,14 @@
 **Resolved:** *Enabled word wrap to ensure the text fits inside the task container.*
 
 # Credits
+
+This website was inspired by a youtube tutorial called "To Do List App With Javascript" by the coding Artist. I made modifications to the original code but it does use some code directly from the tutorial: 
+
+**The tutorial can be found here:** [To Do List App With Javascript](https://www.youtube.com/watch?v=c48pBHlnsPE&t=712s)
+
+**Fav icon:**
+[Fav icon](https://favicon.io)
+
+**Google Fonts (Tangerine):**
+[Google Fonts - Tangerine](https://fonts.google.com)
+
