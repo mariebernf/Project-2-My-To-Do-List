@@ -67,6 +67,8 @@
 
 **HTML Tested by W3C validator:**
 
+![Screenshot](assets/images/Screenshot%202025-03-15%20025557.png)
+
 **CSS Tested by W3C (Jigsaw) validator:**
 
 **JS**
