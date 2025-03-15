@@ -83,10 +83,10 @@ text-decoration: line-through;
 
 ## HTML: This section of HTML code was taken directly from the tutorial [To Do List App With Javascript](https://www.youtube.com/watch?v=c48pBHlnsPE&t=712s).
 
-<div id="tasks">
-<p id="pending-tasks">
+<div id="tasks"
+<p id="pending-tasks"
 You have <span class="count-value">0</span> task(s) to complete.
 </p>
 </div>
 </div>
-<p id="error">Input cannot be empty!</p>
+<p id="error">Input cannot be empty!
