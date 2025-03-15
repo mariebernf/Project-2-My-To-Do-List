@@ -1,5 +1,7 @@
 /* global console, alert */
 
+// For details on direct code taken from the tutorial https://www.youtube.com/watch?v=c48pBHlnsPE&t=712s from the Coding artist, see Credits.md file. //
+
 // Select elements and set task count.
 const addBtn = document.querySelector("#add-btn");
 const newTaskInput = document.querySelector("#wrapper input");

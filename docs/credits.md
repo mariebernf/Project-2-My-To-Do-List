@@ -1,6 +1,6 @@
-#### I followed the tutorial and made modification as I went along, but some of the code I took directly from the tutorial. The following code is taken from [To Do List App With Javascript](https://www.youtube.com/watch?v=c48pBHlnsPE&t=712s) without modifications or additions:
+## I followed the tutorial and made modification as I went along, but some of the code I took directly from the tutorial. The following code is taken from [To Do List App With Javascript](https://www.youtube.com/watch?v=c48pBHlnsPE&t=712s) without modifications or additions:
 
-## Javascript: This section of code was taken directly from the tutorial [To Do List App With Javascript](https://www.youtube.com/watch?v=c48pBHlnsPE&t=712s).
+## Javascript: This section of code was taken directly from the tutorial: [To Do List App With Javascript](https://www.youtube.com/watch?v=c48pBHlnsPE&t=712s).
 
 const addBtn = document.querySelector("#add-btn");
 const newTaskInput = document.querySelector("#wrapper input");
