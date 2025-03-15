@@ -71,6 +71,11 @@
 
 **CSS Tested by W3C (Jigsaw) validator:**
 
+![Screenshot](assets/images/Screenshot%202025-03-15%20032132.png)
+
+
+**CSS Tested by W3C (Jigsaw) validator:**
+
 **JS**
 
 **Lighthouse**
