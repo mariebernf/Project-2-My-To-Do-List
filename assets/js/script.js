@@ -1,5 +1,6 @@
-// Select elements and set task count.
+/* global console, alert */
 
+// Select elements and set task count.
 const addBtn = document.querySelector("#add-btn");
 const newTaskInput = document.querySelector("#wrapper input");
 const tasksContainer = document.querySelector("#tasks");
@@ -8,108 +9,93 @@ const countValue = document.querySelector(".count-value");
 
 let taskCount = 0;
 
-const displayCount = () => {
-    countValue.innerText = taskCount;
-};
+function displayCount() {
+  console.log("Task count updated");
+}
 
 // Add new task
+function addTask() {
+  const taskName = newTaskInput.value.trim();
+  error.style.display = "none";
 
-const addTask = () => {
-    const taskName=newTaskInput.value.trim(); 
-    error.style.display="none";
-// Show error if task input is emtpy
+  // Show error if task input is emtpy
+  if (!taskName) {
+    setTimeout(function () {
+      error.style.display = "block";
+    }, 200);
+    return;
+  }
 
-if(!taskName) {
-    setTimeout(() => {
-        error.style.display="block";
-        }, 200);
-        return;
-}
-// Create new task element
-
-const task = `
+  // Create new task element
+  const task = `
 <div class="task">
 <input type="checkbox" class="task-check">
 <span class="taskname">${taskName}</span>
-<button class="edit">Edit</i></button>
-<button class="delete">Delete</i></button>
+<button class="edit">Edit</button>
+<button class="delete">Delete</button>
 </div>
 `;
 
-// Add task to the task container
+  // Add task to the task container
+  tasksContainer.insertAdjacentHTML("beforeend", task);
 
-tasksContainer.insertAdjacentHTML("beforeend",task);
-
-// Delete functionality
-
-const deleteButtons=document.querySelectorAll(".delete");
-deleteButtons.forEach((button) => {
-    button.onclick = () => {
-        button.parentNode.remove();
-        taskCount -=1;
-        displayCount();
-    }
-});
-
-const editButtons = document.querySelectorAll(".edit");
-
-// Edit functionality
-
-editButtons.forEach((editBtn) => {
-    editBtn.onclick = (e) => {
-        let targetElement = e.target;
-        if(!(e.target.className ==="edit")) {
-            targetElement = e.target.parentElement;
-        }
-         newTaskInput.value = targetElement.previousElementSibling?.innerText;
-         targetElement.parentNode.remove();
-         taskCount -= 1;
-         displayCount();
+  // Delete functionality
+  const deleteButtons = document.querySelectorAll(".delete");
+  deleteButtons.forEach(function (button) {
+    button.onclick = function () {
+      button.parentNode.remove();
+      taskCount -= 1;
+      displayCount();
     };
-});
+  });
 
-// Checkbox functionality
+  const editButtons = document.querySelectorAll(".edit");
 
-const tasksCheck = document.querySelectorAll(".task-check");
-tasksCheck.forEach((checkBox) => {
-    checkBox.onchange =() => {
-        checkBox.nextElementSibling.classList.toggle("completed");
+  // Edit functionality
+  editButtons.forEach(function (editBtn) {
+    editBtn.onclick = function (e) {
+      let targetElement = e.target;
+      if (!(e.target.className === "edit")) {
+        targetElement = e.target.parentElement;
+      }
+      newTaskInput.value = targetElement.previousElementSibling?.innerText;
+      targetElement.parentNode.remove();
+      taskCount -= 1;
+      displayCount();
+    };
+  });
 
-// Adjust task count based on checkbox state
+  // Checkbox functionality
+  const tasksCheck = document.querySelectorAll(".task-check");
+  tasksCheck.forEach(function (checkBox) {
+    checkBox.onchange = function () {
+      checkBox.nextElementSibling.classList.toggle("completed");
 
-if(checkBox.checked) {
-    taskCount -=1; // Decrease task count when checked
-} else {
- taskCount += 1; // Increase task count when unchecked
+      // Adjust task count based on checkbox state
+      if (checkBox.checked) {
+        taskCount -= 1; // Decrease task count when checked
+      } else {
+        taskCount += 1; // Increase task count when unchecked
+      }
+
+      displayCount();
+    };
+  });
+
+  taskCount += 1;
+  displayCount();
+  newTaskInput.value = "";
+
+  // Pop up message
+  alert("Task added successfully!");
 }
 
-displayCount();
-
-    };
-
-
-    });
-
-    taskCount += 1;
-    displayCount();
-    newTaskInput.value="";
-
-    // Pop up message
-
-    alert("Task added successfully!")
-};
-
-
 // Event listener for adding task
+addBtn.addEventListener("click", addTask);
 
-addBtn.addEventListener("click",addTask);
-
-// Reset task count 
-
-window.onload = () => {
-    taskCount = 0;
-    displayCount();
-    newTaskInput.value="";
-
+// Reset task count
+window.onload = function () {
+  taskCount = 0;
+  displayCount();
+  newTaskInput.value = "";
 };
-
