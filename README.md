@@ -174,3 +174,14 @@
 **Resolved:** *Enabled word wrap to ensure the text fits inside the task container.*
 
 # Credits
+
+This website was inspired by a youtube tutorial called "To Do List App With Javascript" by the coding Artist. I made modifications to the original code but it does use some code directly from the tutorial: 
+
+**The tutorial can be found here:** [To Do List App With Javascript](https://www.youtube.com/watch?v=c48pBHlnsPE&t=712s)
+
+**Fav icon:**
+[Fav icon](https://favicon.io)
+
+**Google Fonts (Tangerine):**
+[Google Fonts - Tangerine](https://fonts.google.com)
+
