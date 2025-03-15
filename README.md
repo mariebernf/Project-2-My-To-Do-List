@@ -63,6 +63,16 @@
 
 # Testing
 
+**Manual testing:**
+
+**HTML Tested by W3C validator:**
+
+**CSS Tested by W3C (Jigsaw) validator:**
+
+**JS**
+
+**Lighthouse**
+
 # Bugs
 
 **Edit and delete buttons were not responsive.**
