@@ -1,6 +1,8 @@
 ﻿# Project-2-My-To-Do-List
 
-https://mariebernf.github.io/Project-2-My-To-Do-List/
+ **The website is a To-do application which helps users manage their tasks. Tasks are displayed clearly. Users can edit their tasks by clicking the edit button. They can delete them by clicking the delete button. Tasks can be marked as complete. If a user tries to add an empty task, an error alert will appear.**
+
+**View here** https://mariebernf.github.io/Project-2-My-To-Do-List/
 
 # User stories
 
