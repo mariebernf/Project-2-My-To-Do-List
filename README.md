@@ -27,7 +27,9 @@
 
 **Buttons:** 
 * Add button: Has a white background with black text, this makes it look clean and easy to use.
+ 
 * Delete button: Is red, symbolizws urgency making it easy for users to identify. It draws attentions to the user.
+  
 * Edit button: Is light blue which aligns with the sites colour scheme.
 
 **Error message:** Red: Indicates a warning, catching the user's attention to alert them about an empty task input.
