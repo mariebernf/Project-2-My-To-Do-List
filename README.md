@@ -75,11 +75,33 @@
 
 ![Screenshot](assets/images/Screenshot%202025-03-15%20032132.png)
 
-**JS**
+***
+
+**JSLint**
+
+**After running the JavaScript code through JSLint, several changes were made:**
+
+* JSLint recommended using regular functions instead of arrow functions to ensure compatibility. I changed the arrow function with function declarations.
+
+* JSLint warned about undeclared global variables. I added a comment at the beginning of the JavaScript file to declare console and alert as global variables.
+
+* JSLint warned about enexpected trailing spaces in my code. I removed trailing spaces from lines.
+
+* JSLint recommended using double quotes instead of single quotes. I changed strings to double quotes.
+
+* JSLint found missing semicolons. I added the missing semicolons to the end of the statements where necessary.
+
+**Unresolved issues in JSLint:**
+
+* Undeclared console and undeclared alert: I added the comment at the beginning of the JavaScript to declare console and alert as global variables, but it still returned a warning. After researching these warnings the advice I found was that if they do not affect the functionality of the website they are safe to ignore. I have noted these warnings but left them unresolved because the code continues to function properly.
+
+***
 
 **Lighthouse**
 
 ![Screenshot](assets/images/Lighthouse.png)
+
+***
 
 # Bugs and Fixes
 
