@@ -17,6 +17,19 @@
 * I want to delete tasks.
 * I want to mark tasks has done.
 
+## Screen shots fo active site that meet users requirments:
+
+* Simple navigation and user-friendly website. Add tasks easily.
+  
+![Navigation](assets/images/Simplenav.png)
+
+* Edit and delete tasks.
+  
+![Edit&Delete](assets/images/Edit-delete.png)
+
+* The user can mark tasks as done.
+
+![Task-Done](assets/images/Task-done.png)
 
 # Design
 
