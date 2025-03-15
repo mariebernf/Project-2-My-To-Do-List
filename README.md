@@ -17,7 +17,7 @@
 * I want to delete tasks.
 * I want to mark tasks has done.
 
-## Screen shots fo active site that meet users requirments:
+## Screen shots of active site that meet users requirments:
 
 * Simple navigation and user-friendly website. Add tasks easily.
   
@@ -57,6 +57,10 @@
  * I have chosen to use Arial for the general text because it is easy to read, simple and modern.
  * I chose Tangerine for the header and footer to give it a more refined and elegant look.
  * The combination of Arial for the main content and Tangerine for the header and footer works well becasue it balances readablity with a refined look.
+
+## Wireframe
+
+![Wireframe](assets/images/Wireframe.png)
 
 # Features
 
@@ -105,6 +109,16 @@
 **2. CSS:** Used for styling the website.
 
 **3. JavaScript:** Used to add interactivity and functionality to the website.
+
+# Tools used 
+
+**1. Git & Github:** For version control.
+
+**2. Visual Studio Code:** Code editor.
+
+**3. Figma:** Used to design wireframes.
+
+**4. Chrome DevTools:** Used for debugging and testing the website.
    
 # Deployment
 ## Deployment steps:
