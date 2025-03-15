@@ -179,6 +179,8 @@ This website was inspired by a youtube tutorial called "To Do List App With Java
 
 **The tutorial can be found here:** [To Do List App With Javascript](https://www.youtube.com/watch?v=c48pBHlnsPE&t=712s)
 
+**Direct code from the tutorial:** [Credits](docs/credits.md)
+
 **Fav icon:**
 [Fav icon](https://favicon.io)
 
