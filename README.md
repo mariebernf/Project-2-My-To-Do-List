@@ -4,6 +4,9 @@
 
 **View here** https://mariebernf.github.io/Project-2-My-To-Do-List/
 
+## Project Requirements: 
+The purpose of this project is to create an interactive front end website. The site should respond to the user's actions. 
+
 # User stories
 
 ## User story 1:
