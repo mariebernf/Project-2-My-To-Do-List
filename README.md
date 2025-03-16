@@ -131,6 +131,20 @@ The purpose of this project is to create an interactive front end website. The s
 4. This can take a few minutes.
 5. Gitpages will now show Active deployments.
 
+## Forking the Repository:
+1. Log in to Github. Locate the "fork" button just above the "Settings" button at the top of the page. Click the "Fork" button.
+2. You will now have a copy of the orginal repository in your Github.
+3. You can view and make changes without affecting the original repository.
+
+## Cloning the Github Respository:
+1. Choose the location where you want to store the cloned repository.
+2. Open your terminal or command prompt.
+3. In the terminal, type the folling command:
+   * git clone https://github.com/username/repository-name.git
+4. After cloning the repository, change the directory into the project folder by using the cd command:
+   * cd your-repo-name
+5. Now you can open the cloned repository in a code editor and make changes.
+
 # Testing
 
 **Manual testing:**
